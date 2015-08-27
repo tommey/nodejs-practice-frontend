@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "e2e": "nightwatch"
   },
   "author": "",
   "license": "ISC",
@@ -13,5 +14,9 @@
     "koa-handlebars": "^0.5.7",
     "koa-router": "^5.1.2",
     "superagent": "^1.3.0"
+  },
+  "devDependencies": {
+    "nightwatch": "^0.7.11",
+    "selenium-server-standalone-jar": "^2.47.1"
   }
 }
